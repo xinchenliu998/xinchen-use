@@ -1,0 +1,36 @@
+{
+    "version": "3.9.1",
+    "description": "Cross-platform All-in-One assistant for Claude Code, Codex & Gemini CLI",
+    "homepage": "https://github.com/farion1231/cc-switch",
+    "license": "MIT",
+    "url": "https://github.com/farion1231/cc-switch/releases/download/v3.9.1/CC-Switch-v3.9.1-Windows.msi",
+    "hash": "a828744f21d3d178e5415c4f71300334eb6b185f80262605df76a37690711e99",
+    "installer": {
+        "script": [
+            "Move-Item \"$dir\\Programs\\CC Switch\\cc-switch.exe\" \"$dir\\cc-switch.exe\" -Force",
+            "Remove-Item \"$dir\\Programs\" -Recurse -Force"
+        ]
+    },
+    "uninstaller": {
+        "script": [
+            "Remove-Item \"$dir\\cc-switch.exe\" -ErrorAction SilentlyContinue"
+        ]
+    },
+    "bin": "cc-switch.exe",
+    "shortcuts": [
+        [
+            "cc-switch.exe",
+            "CC Switch"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/farion1231/cc-switch/releases/download/v$version/CC-Switch-v$version-Windows.msi",
+        "hash": {
+            "url": "https://api.github.com/repos/farion1231/cc-switch/releases/latest",
+            "mode": "json",
+            "jp": "$.assets[?(@.name=='CC-Switch-v$version-Windows.msi')].digest",
+            "regex": "sha256:(?<hash>[a-fA-F0-9]{64})"
+        }
+    }
+}
