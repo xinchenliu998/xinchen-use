@@ -6,6 +6,10 @@ jobs:
   issueHandler:
     name: IssueHandler
     runs-on: windows-latest
+    permissions:
+      contents: write
+      issues: write
+      pull-requests: write
     steps:
       - uses: actions/checkout@main
       - name: IssueHandler

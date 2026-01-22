@@ -1,6 +1,6 @@
 {
     "version": "3.9.1",
-    "description": "Cross-platform All-in-One assistant for Claude Code, Codex & Gemini CLI",
+    "description": "A cross-platform desktop All-in-One assistant tool for Claude Code, Codex & Gemini CLI.",
     "homepage": "https://github.com/farion1231/cc-switch",
     "license": "MIT",
     "url": "https://github.com/farion1231/cc-switch/releases/download/v3.9.1/CC-Switch-v3.9.1-Windows.msi",
