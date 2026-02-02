@@ -1,0 +1,24 @@
+{
+    "version": "3.4.0",
+    "description": "SDL (Simple DirectMedia Layer) is a cross-platform development library designed to provide low level access to audio, keyboard, mouse, joystick, and graphics hardware via OpenGL and Direct3D.",
+    "homepage": "https://www.libsdl.org",
+    "license": "Zlib",
+    "url": [
+        "https://github.com/libsdl-org/SDL/releases/download/release-3.4.0/SDL3-devel-3.4.0-VC.zip"
+    ],
+    "hash": [
+        "sha256:4489ba0070b8ce047b8717e4b71fa7e35ac71362e7a6bb2a90a7a27f624b3d5d"
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": [
+            "https://github.com/libsdl-org/SDL/releases/download/release-$version/SDL3-devel-$version-VC.zip"
+        ],
+        "hash": {
+            "url": "https://api.github.com/repos/libsdl-org/SDL/releases/latest",
+            "mode": "json",
+            "jp": "$.assets[?(@.name=='SDL3-devel-$version-VC.zip')].digest",
+            "regex": "sha256:(?<hash>[a-fA-F0-9]{64})"
+        }
+    }
+}

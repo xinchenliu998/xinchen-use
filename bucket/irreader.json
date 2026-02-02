@@ -1,0 +1,35 @@
+{
+    "version": "1.8.0",
+    "description": "irreader - RSS阅读器",
+    "homepage": "https://irreader.fatecore.com/",
+    "license": "Freeware",
+    "url": "https://download.fatecore.com/irreader/irreader-1.8.0.zip",
+    "hash": "62b0d92d66171cf7410147f7f34ef7a6519763c905bd1918be6cbaa6868a470f",
+    "installer": {
+        "script": [
+            "# 首先解压外层ZIP",
+            "Get-ChildItem \"$dir\\*.exe\" | ForEach-Object {",
+            "    Expand-7zipArchive \"$_\" \"$dir\" -Removal",
+            "}",
+            "# 删除无用文件",
+            "Remove-Item \"$dir\\`$PLUGINSDIR\" -Recurse -Force -ErrorAction SilentlyContinue"
+        ]
+    },
+    "bin": "irreader.exe",
+    "shortcuts": [
+        [
+            "irreader.exe",
+            "irreader"
+        ]
+    ],
+    "checkver": {
+        "url": "https://irreader.fatecore.com/",
+        "regex": "irreader v((\\d+\\.\\d+\\.\\d+))"
+    },
+    "autoupdate": {
+        "url": "https://download.fatecore.com/irreader/irreader-$version.zip",
+        "hash": {
+            "mode": "download"
+        }
+    }
+}
