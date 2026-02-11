@@ -1,13 +1,11 @@
 {
-    "version": "4.13.1",
+    "version": "4.13.2",
     "description": "ANTLR (ANother Tool for Language Recognition) is a powerful parser generator for reading, processing, executing, or translating structured text or binary files.",
-    "hash": "bc13a9c57a8dd7d5196888211e5ede657cb64a3ce968608697e4f668251a8487",
+    "hash": "",
     "homepage": "https://www.antlr.org/",
     "url": "https://www.antlr.org/download/antlr-4.13.1-complete.jar",
     "license": "BSD-3-Clause",
-    "pre_install": [
-        "Rename-Item -Path \"$dir\\antlr-$version-complete.jar\" -NewName 'antlr.jar'"
-    ],
+    "pre_install": "Rename-Item -Path \"$dir\\antlr-$version-complete.jar\" -NewName 'antlr.jar'",
     "checkver": {
         "url": "https://www.antlr.org/download.html",
         "regex": "download/antlr-([\\d.]+)-complete\\.jar"
