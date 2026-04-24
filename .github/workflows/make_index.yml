@@ -7,6 +7,8 @@ jobs:
   makeIndex:
     name: makeIndex
     runs-on: windows-latest
+    permissions:
+      contents: write
     steps:
     - uses: actions/checkout@main
     - run: |
@@ -14,7 +16,7 @@ jobs:
     - uses: EndBug/add-and-commit@v9
       with:
         add: 'README.md'
-        branch: master
+        new_branch: master
         author_name: xinchenliu998
         author_email: xinchenliu998@163.com
         message: '(chore): update app index [scoop skip]'
