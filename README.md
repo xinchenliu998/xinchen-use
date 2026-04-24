@@ -28,7 +28,6 @@ scoop install xinchen-use/<app_name>
 |----|-------|-----------|
 |[antlr](https://www.antlr.org/)|[4.13.2](https://www.antlr.org/download.html)|ANTLR (ANother Tool for Language Recognition) is a powerful parser generator for reading, processing, executing, or translating structured text or binary files.|
 |[cc-switch](https://github.com/farion1231/cc-switch)|[3.14.1](https://github.com/farion1231/cc-switch)|A cross-platform desktop All-in-One assistant tool for Claude Code, Codex & Gemini CLI.|
-|[hello]()|<i>1.0</i>|打印当前用户名|
 |[irreader](https://irreader.fatecore.com/)|[1.8.0](https://irreader.fatecore.com/)|irreader - RSS阅读器|
 |[msys2](http://www.msys2.org/)|[2026-03-22](https://github.com/msys2/msys2-installer/releases)|A software distro and building platform for Windows.|
 |[notepad--](https://gitee.com/cxasm/notepad--)|[3.7.2](https://gitee.com/api/v5/repos/cxasm/notepad--/releases/latest)|Notepad-- is a text editor written in C++ that works seamlessly on Windows, Linux and Mac platforms.|
