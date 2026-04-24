@@ -16,7 +16,7 @@ jobs:
     - uses: EndBug/add-and-commit@v9
       with:
         add: 'README.md'
-        new_branch: master
+        new_branch: main
         author_name: xinchenliu998
         author_email: xinchenliu998@163.com
         message: '(chore): update app index [scoop skip]'
