@@ -1,5 +1,6 @@
 {
     "version": "1.0",
     "url": "https://gist.github.com/lukesampson/6446238/raw/hello.ps1",
+    "description": "打印当前用户名",
     "bin": "hello.ps1"
 }
