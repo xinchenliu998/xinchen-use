@@ -1,12 +1,12 @@
 {
-    "version": "1.12.0",
+    "version": "1.13.0",
     "description": "The unified history viewer for AI coding assistants - browse, search, and analyze conversations from Claude Code, Gemini CLI, Codex CLI, Cline, Cursor, Aider, and OpenCode",
     "homepage": "https://github.com/jhlee0409/claude-code-history-viewer",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/jhlee0409/claude-code-history-viewer/releases/download/v1.12.0/Claude.Code.History.Viewer_1.12.0_x64-portable.zip",
-            "hash": "2aa986f19d6dc2acb5ece839ef35b3f7ad6df4a25123c821100a6baad7da6835"
+            "url": "https://github.com/jhlee0409/claude-code-history-viewer/releases/download/v1.13.0/Claude.Code.History.Viewer_1.13.0_x64-portable.zip",
+            "hash": "97edd9f3a26a90be9c3e500a65b93af68ad858ba09d49f9fc7b3a0f06fcf35ce"
         }
     },
     "bin": "claude-code-history-viewer.exe",
