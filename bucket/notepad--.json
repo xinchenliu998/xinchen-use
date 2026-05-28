@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://gitee.com/cxasm/notepad--/releases/download/v3.7.3/Notepad--v3.7.3-win10-portable.zip",
-            "hash": "eb139b78712f2fdf9fcc738dccefafd9e5ff2f50f1111456333131ecf5883291",
+            "hash": "FD66A928C02F4CA9910593FCADA54ADB903D5E7F47A090AF987D168A22408A35",
             "pre_install": [
                 "Move-Item \"$dir\\Notepad--v$version-win10-portable\\*\" \"$dir\"",
                 "Remove-Item \"$dir\\Notepad--v$version-win10-portable\" -Force -Recurse"
