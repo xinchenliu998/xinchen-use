@@ -34,5 +34,5 @@ scoop install xinchen-use/<app_name>
 |[msys2](http://www.msys2.org/)|[2026-03-22](https://github.com/msys2/msys2-installer/releases)|A software distro and building platform for Windows.|
 |[notepad--](https://gitee.com/cxasm/notepad--)|[3.7.3](https://gitee.com/api/v5/repos/cxasm/notepad--/releases/latest)|Notepad-- is a text editor written in C++ that works seamlessly on Windows, Linux and Mac platforms.|
 |[potplayer](https://potplayer.daum.net)|[260401](https://t1.daumcdn.net/potplayer/PotPlayer/v4/Update2/UpdateEng.html)|Highly customizable media player|
-|[ProxyPin](https://github.com/wanghongenpin/proxypin)|[1.2.7](https://github.com/wanghongenpin/proxypin)|Open-source, free HTTP(S) traffic capture tool.|
+|[ProxyPin](https://github.com/wanghongenpin/proxypin)|[1.2.8](https://github.com/wanghongenpin/proxypin)|Open-source, free HTTP(S) traffic capture tool.|
 |[sdl3](https://www.libsdl.org)|[3.4.0](https://www.libsdl.org)|SDL (Simple DirectMedia Layer) is a cross-platform development library designed to provide low level access to audio, keyboard, mouse, joystick, and graphics hardware via OpenGL and Direct3D.|
