@@ -4,7 +4,7 @@
     "homepage": "https://irreader.fatecore.com/",
     "license": "Freeware",
     "url": "https://download.fatecore.com/irreader/irreader-1.8.0.zip",
-    "hash": "62b0d92d66171cf7410147f7f34ef7a6519763c905bd1918be6cbaa6868a470f",
+    "hash": null,
     "installer": {
         "script": [
             "# 首先解压外层ZIP",

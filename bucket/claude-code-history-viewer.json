@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/jhlee0409/claude-code-history-viewer/releases/download/v1.18.0/Claude.Code.History.Viewer_1.18.0_x64-portable.zip",
-            "hash": "84f624b4f54c8a58fbb75284aa37a1eba2442227ae95f8f1c3f2649907ebc687"
+            "hash": null
         }
     },
     "bin": "claude-code-history-viewer.exe",
