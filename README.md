@@ -27,7 +27,7 @@ scoop install xinchen-use/<app_name>
 |Name|Version|Description|
 |----|-------|-----------|
 |[antlr](https://www.antlr.org/)|[4.13.2](https://www.antlr.org/download.html)|ANTLR (ANother Tool for Language Recognition) is a powerful parser generator for reading, processing, executing, or translating structured text or binary files.|
-|[cc-switch](https://github.com/farion1231/cc-switch)|[4.0.6](https://github.com/farion1231/cc-switch)|A cross-platform desktop All-in-One assistant tool for Claude Code, Codex & Gemini CLI.|
+|[cc-switch](https://github.com/farion1231/cc-switch)|[4.0.8](https://github.com/farion1231/cc-switch)|A cross-platform desktop All-in-One assistant tool for Claude Code, Codex & Gemini CLI.|
 |[claude-code-history-viewer](https://github.com/jhlee0409/claude-code-history-viewer)|[1.18.0](https://github.com/jhlee0409/claude-code-history-viewer)|The unified history viewer for AI coding assistants - browse, search, and analyze conversations from Claude Code, Gemini CLI, Codex CLI, Cline, Cursor, Aider, and OpenCode|
 |[cli-proxy-api](https://github.com/router-for-me/CLIProxyAPI)|[8.0.23](https://github.com/router-for-me/CLIProxyAPI)|Wrap Gemini CLI, Antigravity, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service|
 |[irreader](https://irreader.fatecore.com/)|[1.8.0](https://irreader.fatecore.com/)|irreader - RSS阅读器|
