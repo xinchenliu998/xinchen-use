@@ -1,10 +1,10 @@
 {
-    "version": "4.0.13",
+    "version": "4.0.14",
     "description": "A cross-platform desktop All-in-One assistant tool for Claude Code, Codex & Gemini CLI.",
     "homepage": "https://github.com/farion1231/cc-switch",
     "license": "MIT",
-    "url": "https://github.com/farion1231/cc-switch/releases/download/v4.0.13/CC-Switch-v4.0.13-Windows.msi",
-    "hash": "79b8adc2278e29cca560183f1eed5343c680ce9da06643a515fc80e84f46fc13",
+    "url": "https://github.com/farion1231/cc-switch/releases/download/v4.0.14/CC-Switch-v4.0.14-Windows.msi",
+    "hash": "cdc06874c2956a0608d4b0250564060beb19a94d49d330ec517a91afa77b5a30",
     "installer": {
         "script": [
             "Move-Item \"$dir\\Programs\\CC Switch\\cc-switch.exe\" \"$dir\\cc-switch.exe\" -Force",
